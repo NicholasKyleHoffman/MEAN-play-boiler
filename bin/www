@@ -26,6 +26,11 @@ var server = http.createServer(app);
  */
 
 server.listen(port);
+/** 
+*   MEAN-play-boiler App
+*   @author Nick Hoffman <hoffman.nick10@gmail.com>
+**/
+
 server.on('error', onError);
 server.on('listening', onListening);
 

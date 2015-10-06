@@ -1,3 +1,8 @@
+/** 
+*   MEAN-play-boiler App
+*   @author Nick Hoffman <hoffman.nick10@gmail.com>
+**/
+
 var mongoose = require('mongoose');
 
 var PostSchema = new mongoose.Schema({
